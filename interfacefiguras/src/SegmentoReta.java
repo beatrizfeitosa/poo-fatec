@@ -1,6 +1,3 @@
-/**
- * @author Beatriz Feitosa
- */
 public class SegmentoReta implements Objeto2D {
     private Ponto2D p0;
     private Ponto2D p1;

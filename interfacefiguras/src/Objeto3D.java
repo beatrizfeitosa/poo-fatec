@@ -1,6 +1,3 @@
-/**
- * @author biahf
- */
 public interface Objeto3D extends Objeto2D {
     public void moveZ(double dZ);
     public void moveXZ(double dX, double dZ);

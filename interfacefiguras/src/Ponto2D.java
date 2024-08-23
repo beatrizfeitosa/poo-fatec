@@ -1,6 +1,3 @@
-/**
- * @author Beatriz Feitosa
- */
 public class Ponto2D implements Objeto2D{
     private double x;
     private double y;

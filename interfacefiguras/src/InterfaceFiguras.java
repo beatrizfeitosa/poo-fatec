@@ -1,6 +1,3 @@
-/**
- * @author Beatriz Feitosa
- */
 public class InterfaceFiguras {
     public static void main(String[] args) {
         Ponto2D ponto01 = new Ponto2D(2, 3);

@@ -9,12 +9,12 @@ public class Esfera implements Figura3D {
 
     @Override
     public double volume() {
-        return 0;
+        return (4/3) * Math.PI * Math.pow(raio, 3);
     }
 
     @Override
     public double superficie() {
-        return 0;
+        return 4 * Math.PI * raio * raio;
     }
 
     @Override

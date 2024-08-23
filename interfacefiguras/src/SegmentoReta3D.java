@@ -1,6 +1,3 @@
-/**
- * @author Beatriz Feitosa
- */
 public class SegmentoReta3D implements Objeto3D {
     private Ponto3D p0;
     private Ponto3D p1;
