@@ -8,7 +8,7 @@ public class Aula02 {
         Circulo circulo = new Circulo(3, (Ponto2D) ponto01);
         System.out.println(ponto01.toString());
         if(segmentoReta.getClass().equals(SegmentoReta.class))
-            System.out.println(((SegmentoReta)segmentoReta).getP0());
+            System.out.println(segmentoReta);
         System.out.println(quadrado);
         System.out.println(circulo);
     }

@@ -49,6 +49,8 @@ public class Circulo implements Figura2D {
         return "Circulo{" +
                 "raio=" + raio +
                 ", centro=" + centro +
+                ", area=" + area() +
+                ", perimetro=" + perimetro() +
                 '}';
     }
 }
