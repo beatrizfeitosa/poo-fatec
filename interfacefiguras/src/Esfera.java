@@ -7,6 +7,22 @@ public class Esfera implements Figura3D {
         this.raio = raio;
     }
 
+    public void setRaio(double raio) {
+        this.raio = raio;
+    }
+
+    public Ponto3D getCentro() {
+        return centro;
+    }
+
+    public void setCentro(Ponto3D centro) {
+        this.centro = centro;
+    }
+
+    public double getRaio() {
+        return raio;
+    }
+
     @Override
     public double volume() {
         return (4/3) * Math.PI * Math.pow(raio, 3);
@@ -50,5 +66,15 @@ public class Esfera implements Figura3D {
     @Override
     public void moveXYZ(double dX, double dY, double dZ) {
         centro.moveXYZ(dX, dY, dZ);
+    }
+
+    @Override
+    public String toString() {
+        return "Esfera{" +
+                "centro=" + centro +
+                ", raio=" + raio +
+                ", superficie=" + superficie() +
+                ", volume=" + volume() +
+                '}';
     }
 }
