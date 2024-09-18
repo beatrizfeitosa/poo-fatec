@@ -1,11 +1,11 @@
 package folhapagamento.beans;
 
-public class Horista extends Mensalista {
-    double valorHora;
-    int totalHoras;
+public class Horista extends Funcionario {
+    protected double valorHora;
+    protected double totalHoras;
 
-    public Horista(double valorHora, int totalHoras, String cargo, int matricula, String rg, String cpf, String nome, String email) {
-        super(cargo, matricula, rg, cpf, nome, email);
+    public Horista(double valorHora, double totalHoras, int matricula, String departamento, String CPF, String RG, String nome, String email) {
+        super(matricula, departamento, CPF, RG, nome, email);
         this.valorHora = valorHora;
         this.totalHoras = totalHoras;
     }
@@ -14,15 +14,20 @@ public class Horista extends Mensalista {
         return valorHora;
     }
 
+    public double getTotalHoras() {
+        return totalHoras;
+    }
+
     public void setValorHora(double valorHora) {
         this.valorHora = valorHora;
     }
 
-    public int getTotalHoras() {
-        return totalHoras;
+    public void setTotalHoras(double totalHoras) {
+        this.totalHoras = totalHoras;
     }
 
-    public void setTotalHoras(int totalHoras) {
-        this.totalHoras = totalHoras;
+    @Override
+    public double salarioBruto() {
+        return  4 * valorHora * totalHoras;
     }
 }

@@ -3,8 +3,8 @@ package folhapagamento.beans;
 public class Mensalista extends Funcionario {
     protected String cargo;
 
-    public Mensalista(String cargo, int matricula, String rg, String cpf, String nome, String email) {
-        super(matricula, rg, cpf, nome, email);
+    public Mensalista(String cargo, int matricula, String departamento, String rg, String cpf, String nome, String email) {
+        super(matricula, departamento, rg, cpf, nome, email);
         this.cargo = cargo;
     }
 
