@@ -1,3 +1,5 @@
+package interfacefiguras.beans;
+
 public class Circulo implements Figura2D {
     private double raio;
     private Ponto2D centro;
@@ -46,7 +48,7 @@ public class Circulo implements Figura2D {
 
     @Override
     public String toString() {
-        return "Circulo{" +
+        return "beans.Circulo{" +
                 "raio=" + raio +
                 ", centro=" + centro +
                 ", area=" + area() +

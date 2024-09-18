@@ -1,3 +1,5 @@
+package interfacefiguras.beans;
+
 public class Ponto3D implements Objeto3D {
     private double x;
     private double y;
@@ -81,7 +83,7 @@ public class Ponto3D implements Objeto3D {
 
     @Override
     public String toString() {
-        return "Ponto3D{" +
+        return "beans.Ponto3D{" +
                 "x=" + x +
                 ", y=" + y +
                 ", z=" + z +

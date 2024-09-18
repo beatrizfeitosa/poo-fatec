@@ -1,3 +1,5 @@
+package interfacefiguras.beans;
+
 public class Ponto2D implements Objeto2D{
     private double x;
     private double y;
@@ -41,6 +43,6 @@ public class Ponto2D implements Objeto2D{
 
     @Override
     public String toString() {
-        return "Ponto2D(" + x + ", " + y + ")";
+        return "beans.Ponto2D(" + x + ", " + y + ")";
     }
 }

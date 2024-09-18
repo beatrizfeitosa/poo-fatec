@@ -1,3 +1,5 @@
+package interfacefiguras.beans;
+
 public class Retangulo implements Figura2D, Objeto2D {
     private int base;
     private int altura;
@@ -47,7 +49,7 @@ public class Retangulo implements Figura2D, Objeto2D {
 
     @Override
     public String toString() {
-        return "Quadrado{" +
+        return "beans.Quadrado{" +
                 "base=" + base +
                 ", altura=" + altura +
                 ", area=" + area() +

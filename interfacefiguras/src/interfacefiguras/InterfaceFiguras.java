@@ -1,3 +1,7 @@
+package interfacefiguras;
+
+import interfacefiguras.beans.*;
+
 public class InterfaceFiguras {
     public static void main(String[] args) {
         Ponto2D ponto01 = new Ponto2D(2, 3);
@@ -8,7 +12,7 @@ public class InterfaceFiguras {
             ponto02.getX();
 
             nesse caso o objeto ponto02 não consegue utilizar nenhum método
-            além dos que estão declarados na interface pois ele é do tipo Objeto2D
+            além dos que estão declarados na interface pois ele é do tipo beans.Objeto2D
          */
 
         Objeto2D ponto03 = new Ponto2D(5, 7);

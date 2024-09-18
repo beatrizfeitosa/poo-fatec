@@ -1,3 +1,5 @@
+package interfacefiguras.beans;
+
 public class Quadrado implements Figura2D {
     private double lado;
     private Ponto2D p0;
@@ -62,7 +64,7 @@ public class Quadrado implements Figura2D {
 
     @Override
     public String toString() {
-        return "Quadrado{" +
+        return "beans.Quadrado{" +
                 "lado=" + lado +
                 ", area=" + area() +
                 ", perimetro=" + perimetro() +

@@ -1,3 +1,5 @@
+package interfacefiguras.beans;
+
 public class Esfera implements Figura3D {
     private Ponto3D centro;
     private double raio;
@@ -70,7 +72,7 @@ public class Esfera implements Figura3D {
 
     @Override
     public String toString() {
-        return "Esfera{" +
+        return "beans.Esfera{" +
                 "centro=" + centro +
                 ", raio=" + raio +
                 ", superficie=" + superficie() +

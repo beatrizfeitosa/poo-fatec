@@ -1,7 +1,9 @@
 package folhapagamento;
 
-import folhapagamento.beans.*;
-import org.w3c.dom.ls.LSOutput;
+import folhapagamento.beans.Funcionario;
+import folhapagamento.beans.Horista;
+import folhapagamento.beans.Mensalista;
+import folhapagamento.beans.Pessoa;
 
 public class FolhaPagamento {
     public static void main(String[] args) {
